@@ -1,0 +1,67 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1628965882741-570e75becd5d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.calc {
+    text-align: center;
+    font-size: 35px;
+    color: #310A0B;
+    font-family: 'Californian FB';
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.container {
+    background-color: #49181D;
+    height: 500px;
+    width: 500px;
+    border-radius: 1cm;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+.display {
+    background-color: #E0A387;
+    height: 70px;
+    width: 430px;
+    border-radius: 0.5cm;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.keys {
+    background-color: #49181D;
+    display: flex;
+    height: 450px;
+    width: 450px;
+    border-radius: 0.5cm;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    flex-wrap: wrap;
+}
+
+input {
+    width: 75px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Bookman Old Style';
+    background-color: #E0A387;
+    color: #310A0B;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 17px;
+
+}
